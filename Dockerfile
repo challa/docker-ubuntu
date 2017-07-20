@@ -12,7 +12,6 @@ RUN locale-gen en_US.UTF-8 && \
     apt-transport-https \
     curl \
     wget \
-    git \
     unzip \
     pwgen
 
