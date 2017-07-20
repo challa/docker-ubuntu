@@ -1,5 +1,5 @@
 FROM ubuntu:trusty
-MAINTAINER Ferran Rodenas <frodenas@gmail.com>
+MAINTAINER Srinivasa Reddy Challa <srinivasa.challa@sap.com>
 
 # Install utilities
 RUN locale-gen en_US.UTF-8 && \
