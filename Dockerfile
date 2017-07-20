@@ -12,7 +12,9 @@ RUN locale-gen en_US.UTF-8 && \
     apt-transport-https \
     unzip \
     pwgen
-    
+
+## Clean up
+RUN apt-get remove -y netcat-openbsd
     
 # Set environment variables
 ENV HOME /root
