@@ -10,11 +10,10 @@ RUN locale-gen en_US.UTF-8 && \
     build-essential \
     software-properties-common \
     apt-transport-https \
-    curl \
-    wget \
     unzip \
-    pwgen
-
+    pwgen && \
+    apt-get purge netcat-openbsd
+    
 # Set environment variables
 ENV HOME /root
 
