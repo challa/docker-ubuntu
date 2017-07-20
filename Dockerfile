@@ -6,7 +6,6 @@ RUN locale-gen en_US.UTF-8 && \
     echo 'LANG="en_US.UTF-8"' > /etc/default/locale && \
     sed -i 's/# \(.*multiverse$\)/\1/g' /etc/apt/sources.list && \
     apt-get update && \
-    apt-get remove netcat-openbsd && \
     apt-get install -y --force-yes \
     build-essential \
     software-properties-common \
