@@ -22,4 +22,4 @@ $ docker run -ti --rm --name ubuntu srinivasachalla/docker-ubuntu
 
 ## Copyright
 
-Copyright (c) 2017 Srinivasa Reddy Challa. See [LICENSE](https://github.com/frodenas/docker-ubuntu/blob/master/LICENSE) for details.
+See [LICENSE](https://github.com/challa/docker-ubuntu/blob/master/LICENSE) for details.
